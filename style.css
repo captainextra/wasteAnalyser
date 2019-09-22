@@ -1,0 +1,48 @@
+
+.jumbotron {
+    background-image: linear-gradient(rgb(230, 230, 230), rgb(230, 230, 230));
+}
+
+#title {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+thead, td, th, tr {
+    text-align: center;
+}
+
+.tab-side {
+    text-align: right;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    border-radius: 15px;
+}
+
+.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+    border-radius: 15px;
+}
+
+#containerb, #containergen, #container, #containerdmr, #containerfoo,#containergls {
+    color: white;
+}
+
+#gengauge, #dmrgauge, #foogauge, #glsgauge {
+    height: 110px;
+    margin-bottom: 10px;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgba(66,135,245,1);
+    border-radius:15px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#gauges, #normal-row {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
